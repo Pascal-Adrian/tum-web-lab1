@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.cv-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.side-bar {
+  grid-column: 1;
+  color: white;
+  background-color: black;
+  padding: 3rem;
+}
+
+.side-bar__image {
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+
+.contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacts__list-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contacts__list-item svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+  fill: white;
+}
+
+.contacts__list-item a {
+  color: white;
+}
+
+.skills__title {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.skills__list {
+  font-size: 1.25rem;
+}
+
+.skills__list--style-none {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
