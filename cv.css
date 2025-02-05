@@ -53,6 +53,7 @@ body {
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .skills__list {
@@ -63,4 +64,70 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+main {
+  grid-column: 2 / -1;
+  padding: 3rem;
+  padding-right: 4rem;
+}
+
+.main-section__name {
+  font-size: 6rem;
+  margin: 0;
+}
+
+.section__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.section__title-divider {
+  height: 4px;
+  background-color: black;
+  border: 0;
+}
+
+.education-section__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education-section__list-item h3 {
+  margin: 0.75rem 0 0.25rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.education-section__list-item span {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.experience-section__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experience-section__list-item h3 {
+  margin: 0.75rem 0 0;
+}
+
+.experience-section__list-item span {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+
+.experience-section__sublist {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
